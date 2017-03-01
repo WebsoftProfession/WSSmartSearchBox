@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		605ABE0A1E66A132004FE461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605ABE091E66A132004FE461 /* main.m */; };
+		605ABE0D1E66A132004FE461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605ABE0C1E66A132004FE461 /* AppDelegate.m */; };
+		605ABE101E66A132004FE461 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605ABE0F1E66A132004FE461 /* ViewController.m */; };
+		605ABE131E66A132004FE461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605ABE111E66A132004FE461 /* Main.storyboard */; };
+		605ABE161E66A132004FE461 /* WSSmartSearchBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 605ABE141E66A132004FE461 /* WSSmartSearchBox.xcdatamodeld */; };
+		605ABE181E66A132004FE461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605ABE171E66A132004FE461 /* Assets.xcassets */; };
+		605ABE1B1E66A132004FE461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605ABE191E66A132004FE461 /* LaunchScreen.storyboard */; };
+		605ABE261E66A132004FE461 /* WSSmartSearchBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605ABE251E66A132004FE461 /* WSSmartSearchBoxTests.m */; };
+		605ABE311E66A132004FE461 /* WSSmartSearchBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605ABE301E66A132004FE461 /* WSSmartSearchBoxUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		605ABE221E66A132004FE461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605ABDFD1E66A132004FE461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605ABE041E66A132004FE461;
+			remoteInfo = WSSmartSearchBox;
+		};
+		605ABE2D1E66A132004FE461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605ABDFD1E66A132004FE461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605ABE041E66A132004FE461;
+			remoteInfo = WSSmartSearchBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		605ABE051E66A132004FE461 /* WSSmartSearchBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSSmartSearchBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		605ABE091E66A132004FE461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		605ABE0B1E66A132004FE461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		605ABE0C1E66A132004FE461 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		605ABE0E1E66A132004FE461 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		605ABE0F1E66A132004FE461 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		605ABE121E66A132004FE461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		605ABE151E66A132004FE461 /* WSSmartSearchBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WSSmartSearchBox.xcdatamodel; sourceTree = "<group>"; };
+		605ABE171E66A132004FE461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		605ABE1A1E66A132004FE461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		605ABE1C1E66A132004FE461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605ABE211E66A132004FE461 /* WSSmartSearchBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSSmartSearchBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		605ABE251E66A132004FE461 /* WSSmartSearchBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSSmartSearchBoxTests.m; sourceTree = "<group>"; };
+		605ABE271E66A132004FE461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605ABE2C1E66A132004FE461 /* WSSmartSearchBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSSmartSearchBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		605ABE301E66A132004FE461 /* WSSmartSearchBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSSmartSearchBoxUITests.m; sourceTree = "<group>"; };
+		605ABE321E66A132004FE461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		605ABE021E66A132004FE461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605ABE1E1E66A132004FE461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605ABE291E66A132004FE461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		605ABDFC1E66A132004FE461 = {
+			isa = PBXGroup;
+			children = (
+				605ABE071E66A132004FE461 /* WSSmartSearchBox */,
+				605ABE241E66A132004FE461 /* WSSmartSearchBoxTests */,
+				605ABE2F1E66A132004FE461 /* WSSmartSearchBoxUITests */,
+				605ABE061E66A132004FE461 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		605ABE061E66A132004FE461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				605ABE051E66A132004FE461 /* WSSmartSearchBox.app */,
+				605ABE211E66A132004FE461 /* WSSmartSearchBoxTests.xctest */,
+				605ABE2C1E66A132004FE461 /* WSSmartSearchBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		605ABE071E66A132004FE461 /* WSSmartSearchBox */ = {
+			isa = PBXGroup;
+			children = (
+				605ABE0B1E66A132004FE461 /* AppDelegate.h */,
+				605ABE0C1E66A132004FE461 /* AppDelegate.m */,
+				605ABE0E1E66A132004FE461 /* ViewController.h */,
+				605ABE0F1E66A132004FE461 /* ViewController.m */,
+				605ABE111E66A132004FE461 /* Main.storyboard */,
+				605ABE171E66A132004FE461 /* Assets.xcassets */,
+				605ABE191E66A132004FE461 /* LaunchScreen.storyboard */,
+				605ABE1C1E66A132004FE461 /* Info.plist */,
+				605ABE141E66A132004FE461 /* WSSmartSearchBox.xcdatamodeld */,
+				605ABE081E66A132004FE461 /* Supporting Files */,
+			);
+			path = WSSmartSearchBox;
+			sourceTree = "<group>";
+		};
+		605ABE081E66A132004FE461 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				605ABE091E66A132004FE461 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		605ABE241E66A132004FE461 /* WSSmartSearchBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				605ABE251E66A132004FE461 /* WSSmartSearchBoxTests.m */,
+				605ABE271E66A132004FE461 /* Info.plist */,
+			);
+			path = WSSmartSearchBoxTests;
+			sourceTree = "<group>";
+		};
+		605ABE2F1E66A132004FE461 /* WSSmartSearchBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				605ABE301E66A132004FE461 /* WSSmartSearchBoxUITests.m */,
+				605ABE321E66A132004FE461 /* Info.plist */,
+			);
+			path = WSSmartSearchBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		605ABE041E66A132004FE461 /* WSSmartSearchBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605ABE351E66A132004FE461 /* Build configuration list for PBXNativeTarget "WSSmartSearchBox" */;
+			buildPhases = (
+				605ABE011E66A132004FE461 /* Sources */,
+				605ABE021E66A132004FE461 /* Frameworks */,
+				605ABE031E66A132004FE461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSSmartSearchBox;
+			productName = WSSmartSearchBox;
+			productReference = 605ABE051E66A132004FE461 /* WSSmartSearchBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		605ABE201E66A132004FE461 /* WSSmartSearchBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605ABE381E66A132004FE461 /* Build configuration list for PBXNativeTarget "WSSmartSearchBoxTests" */;
+			buildPhases = (
+				605ABE1D1E66A132004FE461 /* Sources */,
+				605ABE1E1E66A132004FE461 /* Frameworks */,
+				605ABE1F1E66A132004FE461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605ABE231E66A132004FE461 /* PBXTargetDependency */,
+			);
+			name = WSSmartSearchBoxTests;
+			productName = WSSmartSearchBoxTests;
+			productReference = 605ABE211E66A132004FE461 /* WSSmartSearchBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		605ABE2B1E66A132004FE461 /* WSSmartSearchBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605ABE3B1E66A132004FE461 /* Build configuration list for PBXNativeTarget "WSSmartSearchBoxUITests" */;
+			buildPhases = (
+				605ABE281E66A132004FE461 /* Sources */,
+				605ABE291E66A132004FE461 /* Frameworks */,
+				605ABE2A1E66A132004FE461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605ABE2E1E66A132004FE461 /* PBXTargetDependency */,
+			);
+			name = WSSmartSearchBoxUITests;
+			productName = WSSmartSearchBoxUITests;
+			productReference = 605ABE2C1E66A132004FE461 /* WSSmartSearchBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		605ABDFD1E66A132004FE461 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = WebsoftProfession;
+				TargetAttributes = {
+					605ABE041E66A132004FE461 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					605ABE201E66A132004FE461 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 605ABE041E66A132004FE461;
+					};
+					605ABE2B1E66A132004FE461 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 605ABE041E66A132004FE461;
+					};
+				};
+			};
+			buildConfigurationList = 605ABE001E66A132004FE461 /* Build configuration list for PBXProject "WSSmartSearchBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 605ABDFC1E66A132004FE461;
+			productRefGroup = 605ABE061E66A132004FE461 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				605ABE041E66A132004FE461 /* WSSmartSearchBox */,
+				605ABE201E66A132004FE461 /* WSSmartSearchBoxTests */,
+				605ABE2B1E66A132004FE461 /* WSSmartSearchBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		605ABE031E66A132004FE461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605ABE1B1E66A132004FE461 /* LaunchScreen.storyboard in Resources */,
+				605ABE181E66A132004FE461 /* Assets.xcassets in Resources */,
+				605ABE131E66A132004FE461 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605ABE1F1E66A132004FE461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605ABE2A1E66A132004FE461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		605ABE011E66A132004FE461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605ABE101E66A132004FE461 /* ViewController.m in Sources */,
+				605ABE161E66A132004FE461 /* WSSmartSearchBox.xcdatamodeld in Sources */,
+				605ABE0D1E66A132004FE461 /* AppDelegate.m in Sources */,
+				605ABE0A1E66A132004FE461 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605ABE1D1E66A132004FE461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605ABE261E66A132004FE461 /* WSSmartSearchBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605ABE281E66A132004FE461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605ABE311E66A132004FE461 /* WSSmartSearchBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		605ABE231E66A132004FE461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605ABE041E66A132004FE461 /* WSSmartSearchBox */;
+			targetProxy = 605ABE221E66A132004FE461 /* PBXContainerItemProxy */;
+		};
+		605ABE2E1E66A132004FE461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605ABE041E66A132004FE461 /* WSSmartSearchBox */;
+			targetProxy = 605ABE2D1E66A132004FE461 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		605ABE111E66A132004FE461 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605ABE121E66A132004FE461 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		605ABE191E66A132004FE461 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605ABE1A1E66A132004FE461 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		605ABE331E66A132004FE461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		605ABE341E66A132004FE461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		605ABE361E66A132004FE461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSSmartSearchBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.WSSmartSearchBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		605ABE371E66A132004FE461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSSmartSearchBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.WSSmartSearchBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		605ABE391E66A132004FE461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WSSmartSearchBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.WSSmartSearchBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSSmartSearchBox.app/WSSmartSearchBox";
+			};
+			name = Debug;
+		};
+		605ABE3A1E66A132004FE461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WSSmartSearchBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.WSSmartSearchBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSSmartSearchBox.app/WSSmartSearchBox";
+			};
+			name = Release;
+		};
+		605ABE3C1E66A132004FE461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSSmartSearchBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.WSSmartSearchBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WSSmartSearchBox;
+			};
+			name = Debug;
+		};
+		605ABE3D1E66A132004FE461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSSmartSearchBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TD.WSSmartSearchBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WSSmartSearchBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		605ABE001E66A132004FE461 /* Build configuration list for PBXProject "WSSmartSearchBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605ABE331E66A132004FE461 /* Debug */,
+				605ABE341E66A132004FE461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605ABE351E66A132004FE461 /* Build configuration list for PBXNativeTarget "WSSmartSearchBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605ABE361E66A132004FE461 /* Debug */,
+				605ABE371E66A132004FE461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		605ABE381E66A132004FE461 /* Build configuration list for PBXNativeTarget "WSSmartSearchBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605ABE391E66A132004FE461 /* Debug */,
+				605ABE3A1E66A132004FE461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		605ABE3B1E66A132004FE461 /* Build configuration list for PBXNativeTarget "WSSmartSearchBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605ABE3C1E66A132004FE461 /* Debug */,
+				605ABE3D1E66A132004FE461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		605ABE141E66A132004FE461 /* WSSmartSearchBox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				605ABE151E66A132004FE461 /* WSSmartSearchBox.xcdatamodel */,
+			);
+			currentVersion = 605ABE151E66A132004FE461 /* WSSmartSearchBox.xcdatamodel */;
+			path = WSSmartSearchBox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 605ABDFD1E66A132004FE461 /* Project object */;
+}

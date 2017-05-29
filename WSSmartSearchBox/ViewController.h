@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WSSearchView.h"
+#import "TPKeyboardAvoidingScrollView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<WSSearchViewDelegate,UITextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextField *txtCountry;
+@property (weak, nonatomic) IBOutlet UITextField *txtState;
+@property (weak, nonatomic) IBOutlet TPKeyboardAvoidingScrollView *scrollView;
 
 
 @end

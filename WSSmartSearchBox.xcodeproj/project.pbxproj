@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6014E9991E66F5BE00CDF49A /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6014E9921E66F5BE00CDF49A /* TPKeyboardAvoidingCollectionView.m */; };
-		6014E99A1E66F5BE00CDF49A /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6014E9941E66F5BE00CDF49A /* TPKeyboardAvoidingScrollView.m */; };
-		6014E99B1E66F5BE00CDF49A /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6014E9961E66F5BE00CDF49A /* TPKeyboardAvoidingTableView.m */; };
-		6014E99C1E66F5BE00CDF49A /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6014E9981E66F5BE00CDF49A /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		605ABE0A1E66A132004FE461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605ABE091E66A132004FE461 /* main.m */; };
 		605ABE0D1E66A132004FE461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605ABE0C1E66A132004FE461 /* AppDelegate.m */; };
 		605ABE101E66A132004FE461 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605ABE0F1E66A132004FE461 /* ViewController.m */; };
@@ -42,14 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6014E9911E66F5BE00CDF49A /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
-		6014E9921E66F5BE00CDF49A /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
-		6014E9931E66F5BE00CDF49A /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
-		6014E9941E66F5BE00CDF49A /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
-		6014E9951E66F5BE00CDF49A /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
-		6014E9961E66F5BE00CDF49A /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
-		6014E9971E66F5BE00CDF49A /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
-		6014E9981E66F5BE00CDF49A /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		605ABE051E66A132004FE461 /* WSSmartSearchBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSSmartSearchBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		605ABE091E66A132004FE461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		605ABE0B1E66A132004FE461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -97,21 +85,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6014E9901E66F5B000CDF49A /* TPKeyboard */ = {
-			isa = PBXGroup;
-			children = (
-				6014E9911E66F5BE00CDF49A /* TPKeyboardAvoidingCollectionView.h */,
-				6014E9921E66F5BE00CDF49A /* TPKeyboardAvoidingCollectionView.m */,
-				6014E9931E66F5BE00CDF49A /* TPKeyboardAvoidingScrollView.h */,
-				6014E9941E66F5BE00CDF49A /* TPKeyboardAvoidingScrollView.m */,
-				6014E9951E66F5BE00CDF49A /* TPKeyboardAvoidingTableView.h */,
-				6014E9961E66F5BE00CDF49A /* TPKeyboardAvoidingTableView.m */,
-				6014E9971E66F5BE00CDF49A /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
-				6014E9981E66F5BE00CDF49A /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
-			);
-			name = TPKeyboard;
-			sourceTree = "<group>";
-		};
 		605ABDFC1E66A132004FE461 = {
 			isa = PBXGroup;
 			children = (
@@ -135,7 +108,7 @@
 		605ABE071E66A132004FE461 /* WSSmartSearchBox */ = {
 			isa = PBXGroup;
 			children = (
-				6014E9901E66F5B000CDF49A /* TPKeyboard */,
+				AC3E6B782073A3CA004C1BB2 /* WSSmartSearchView */,
 				605ABE0B1E66A132004FE461 /* AppDelegate.h */,
 				605ABE0C1E66A132004FE461 /* AppDelegate.m */,
 				605ABE0E1E66A132004FE461 /* ViewController.h */,
@@ -146,9 +119,6 @@
 				605ABE1C1E66A132004FE461 /* Info.plist */,
 				605ABE141E66A132004FE461 /* WSSmartSearchBox.xcdatamodeld */,
 				605ABE081E66A132004FE461 /* Supporting Files */,
-				605ABE3E1E66A178004FE461 /* WSSearchView.h */,
-				605ABE3F1E66A178004FE461 /* WSSearchView.m */,
-				606F5B471E697BA500D50F36 /* WSSearchView.xib */,
 			);
 			path = WSSmartSearchBox;
 			sourceTree = "<group>";
@@ -177,6 +147,16 @@
 				605ABE321E66A132004FE461 /* Info.plist */,
 			);
 			path = WSSmartSearchBoxUITests;
+			sourceTree = "<group>";
+		};
+		AC3E6B782073A3CA004C1BB2 /* WSSmartSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				606F5B471E697BA500D50F36 /* WSSearchView.xib */,
+				605ABE3E1E66A178004FE461 /* WSSearchView.h */,
+				605ABE3F1E66A178004FE461 /* WSSearchView.m */,
+			);
+			name = WSSmartSearchView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,14 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6014E99A1E66F5BE00CDF49A /* TPKeyboardAvoidingScrollView.m in Sources */,
-				6014E99B1E66F5BE00CDF49A /* TPKeyboardAvoidingTableView.m in Sources */,
 				605ABE101E66A132004FE461 /* ViewController.m in Sources */,
 				605ABE401E66A178004FE461 /* WSSearchView.m in Sources */,
-				6014E99C1E66F5BE00CDF49A /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				605ABE161E66A132004FE461 /* WSSmartSearchBox.xcdatamodeld in Sources */,
 				605ABE0D1E66A132004FE461 /* AppDelegate.m in Sources */,
-				6014E9991E66F5BE00CDF49A /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				605ABE0A1E66A132004FE461 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -25,7 +25,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     countryArray=@[@"India",@"Austria",@"France",@"China"];
     stateArray=[[NSArray alloc] initWithObjects:@{@"state":@"Andhra Pradesh"},@{@"state":@"Arunachal Pradesh"},@{@"state":@"Assam"},@{@"state":@"Bihar"}, nil];
-    //filterArray = [[NSArray alloc] initWithArray:resultArray];
     searchView = [[[NSBundle mainBundle] loadNibNamed:@"WSSearchView" owner:self options:nil] firstObject];
     searchView.delegate=self;
     [searchView setupAppearance];
@@ -107,9 +106,6 @@
     }
     return YES;
 }
-
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

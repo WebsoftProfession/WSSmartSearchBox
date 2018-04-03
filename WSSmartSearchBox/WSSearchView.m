@@ -97,7 +97,7 @@
     self.hidden=NO;
     
     [UIView animateWithDuration:0.1 animations:^{
-        self.frame=CGRectMake(20,20, (mainScreenFrame.size.width-40), (mainScreenFrame.size.height-160));
+        self.frame=CGRectMake(20,80, (mainScreenFrame.size.width-40), (mainScreenFrame.size.height-160));
         
     } completion:^(BOOL finished) {
         [UIView animateWithDuration:0.1 animations:^{
@@ -118,7 +118,7 @@
 -(void)collapseView{
     
     CGRect mainScreenFrame = [UIScreen mainScreen].bounds;
-    CGRect initialFrame=CGRectMake(20,20, (mainScreenFrame.size.width-40), (mainScreenFrame.size.height-360));
+    CGRect initialFrame=CGRectMake(20,80, (mainScreenFrame.size.width-40), (mainScreenFrame.size.height-360));
     
     [UIView animateWithDuration:0.1 animations:^{
         self.frame=initialFrame;
@@ -128,7 +128,7 @@
 
 -(void)expandView{
     CGRect mainScreenFrame = [UIScreen mainScreen].bounds;
-    CGRect initialFrame=CGRectMake(20,20, (mainScreenFrame.size.width-40), (mainScreenFrame.size.height-160));
+    CGRect initialFrame=CGRectMake(20,80, (mainScreenFrame.size.width-40), (mainScreenFrame.size.height-160));
     
     [UIView animateWithDuration:0.1 animations:^{
         self.frame=initialFrame;
@@ -141,7 +141,7 @@
     UIView *layerView=[[UIView alloc] initWithFrame:self.superview.frame];
     layerView.tag=2000;
     layerView.backgroundColor=[UIColor blackColor];
-    layerView.alpha=0.5;
+    layerView.alpha=0.6;
     UITapGestureRecognizer *tapG =
     [[UITapGestureRecognizer alloc] initWithTarget:self
                                             action:@selector(handleTap:)];

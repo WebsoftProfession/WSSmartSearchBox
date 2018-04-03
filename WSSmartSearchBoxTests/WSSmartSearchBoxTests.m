@@ -2,7 +2,7 @@
 //  WSSmartSearchBoxTests.m
 //  WSSmartSearchBoxTests
 //
-//  Created by Dotsquares on 3/1/17.
+//  Created by WebsoftProfession on 3/1/17.
 //  Copyright © 2017 WebsoftProfession. All rights reserved.
 //
 
